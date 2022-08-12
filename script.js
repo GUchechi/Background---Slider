@@ -7,7 +7,7 @@ let activeSlide = 0;
 
 setBgToBody()
 
-const setBgToBody = () => {
+function setBgToBody (){
     body.style.backgroundImage = slides[activeSlide].style.
     backgroundImage
 }
